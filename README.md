@@ -11,8 +11,10 @@ execution-boundary-core-spec        ← this repository (structural definition)
          ↑
 execution-boundary-transport-profile  (transport application profile)
 ai-execution-boundary-spec            (AI agent application profile)
+execution-observability-profile       (OTel observability profile)
          ↑
 execution-gate                        (reference implementation)
+agent-execution-guard                 (AI agent engine)
 ```
 
 Profiles extend Core. Implementations conform to Core via a profile.
