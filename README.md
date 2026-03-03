@@ -4,6 +4,22 @@ Vendor-neutral structural layer for separating proposal, authorization, and exec
 
 ---
 
+## Layered Model
+
+```
+execution-boundary-core-spec        ← this repository (structural definition)
+         ↑
+execution-boundary-transport-profile  (transport application profile)
+ai-execution-boundary-spec            (AI agent application profile)
+         ↑
+execution-gate                        (reference implementation)
+```
+
+Profiles extend Core. Implementations conform to Core via a profile.
+Core fields are never modified by profiles — extension is add-only.
+
+---
+
 ## 1. Purpose
 
 This specification defines a minimal structural layer that separates:
