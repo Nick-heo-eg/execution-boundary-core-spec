@@ -1,6 +1,6 @@
 # Execution Boundary Core Spec (v0.1)
 
-Minimal reference model for separating proposal, authorization, and execution in side-effecting systems.
+Vendor-neutral structural layer for separating proposal, authorization, and execution in side-effecting systems.
 
 ---
 
